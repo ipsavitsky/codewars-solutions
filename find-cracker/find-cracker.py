@@ -1,4 +1,5 @@
-def find_hack(arr):
+"""https://www.codewars.com/kata/59f70440bee845599c000085"""
+def find_hack(arr: list[str | int | list[str]]) -> list[str]:
     marks = {"A": 30, "B": 20, "C": 10, "D": 5}
     res = []
     for name, score, grades in arr:
