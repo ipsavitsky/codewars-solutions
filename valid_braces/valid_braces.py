@@ -14,5 +14,3 @@ def valid_braces(string: str) -> bool:
                 if len(stack) == 0 or stack.pop() != R_BRACKET_PAIRS[rbrace]:
                     return False
     return len(stack) == 0
-
-print(valid_braces("[(])"))
