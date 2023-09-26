@@ -1,3 +1,3 @@
-pub fn remove_char(s: &str) -> String { 
-    s[1..s.len()-1].to_string()
+fn positive_sum(arr: &[i32]) -> i32 {
+    arr.iter().filter(|x| x.is_positive()).sum()
 }
