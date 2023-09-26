@@ -1,6 +1,5 @@
 from itertools import chain, islice
 
-
 def trib(signature):
     while True:
         k = sum(signature)

@@ -1,4 +1,3 @@
-"""https://www.codewars.com/kata/5277c8a221e209d3f6000b56"""
 def valid_braces(string: str) -> bool:
     R_BRACKET_PAIRS = {
         ')': '(',

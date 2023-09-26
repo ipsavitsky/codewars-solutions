@@ -1,4 +1,3 @@
-% https://www.codewars.com/kata/5583090cbe83f4fd8c000051/
 num_to_digits(0, [0]).
 
 num_to_digits(N, Digits) :-
